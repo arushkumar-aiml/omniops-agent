@@ -2,10 +2,11 @@ import { useState } from "react";
 import Header from "./components/Header.jsx";
 import PrescriptionForm from "./components/PrescriptionForm.jsx";
 import MedicineCard from "./components/MedicineCard.jsx";
+import AgentPanel from "./components/AgentPanel.jsx";
 
 const API_BASE = import.meta.env.VITE_API_BASE || "/api";
 
-export default function App() {
+function MedicationGuideTab() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -31,9 +32,7 @@ export default function App() {
   };
 
   return (
-    <div className="app-shell">
-      <Header />
-
+    <>
       <section className="hero" id="how-it-works">
         <h1>Know exactly what your prescription means for your day.</h1>
         <p>
@@ -73,13 +72,44 @@ export default function App() {
           <p>Add the medicine names from your prescription above and hit explain.</p>
         </div>
       )}
+    </>
+  );
+}
+
+export default function App() {
+  const [tab, setTab] = useState("agent");
+
+  return (
+    <div className="app-shell">
+      <Header />
+
+      <nav className="tab-bar" role="tablist">
+        <button
+          role="tab"
+          aria-selected={tab === "agent"}
+          className={`tab-btn ${tab === "agent" ? "tab-active" : ""}`}
+          onClick={() => setTab("agent")}
+        >
+          🩺 Clinical Documentation Agent
+        </button>
+        <button
+          role="tab"
+          aria-selected={tab === "guide"}
+          className={`tab-btn ${tab === "guide" ? "tab-active" : ""}`}
+          onClick={() => setTab("guide")}
+        >
+          💊 Medication Guide
+        </button>
+      </nav>
+
+      {tab === "agent" ? <AgentPanel /> : <MedicationGuideTab />}
 
       <p className="disclaimer" id="disclaimer">
         <strong>Disclaimer:</strong> OmniOps Health is a hackathon prototype built on a
-        small demo knowledge base for general educational awareness only. It is not
-        medical advice and must not replace your doctor's or pharmacist's instructions.
-        Always take medicines exactly as prescribed, and consult a qualified professional
-        before changing your diet, dosage, or routine.
+        small demo knowledge base and synthetic patient data for general educational
+        awareness only. It is not medical advice and must not replace your doctor's or
+        pharmacist's instructions. Always take medicines exactly as prescribed, and
+        consult a qualified professional before changing your diet, dosage, or routine.
       </p>
     </div>
   );

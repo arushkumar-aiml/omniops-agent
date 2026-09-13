@@ -1,0 +1,38 @@
+[
+  {
+    "id": "G-01",
+    "tags": ["cough", "fever", "respiratory", "infection"],
+    "title": "Lower Respiratory Tract Infection — Follow-up",
+    "text": "For adults with productive cough and fever lasting under 7 days without red-flag signs (breathlessness at rest, SpO2<94%, chest pain), manage symptomatically, review in 3-5 days, and reassess if fever persists beyond 3 days on treatment. Avoid penicillin-class antibiotics in patients with a documented penicillin allergy; prefer a macrolide or as locally indicated."
+  },
+  {
+    "id": "G-02",
+    "tags": ["chest pain", "cardiac", "exertion", "hypertension", "cad"],
+    "title": "Post-Discharge Cardiac Follow-up",
+    "text": "Patients with known coronary artery disease reporting exertional chest tightness require urgent risk re-stratification: 12-lead ECG, troponin if available, and same-week cardiology review. Continue existing antiplatelet and antihypertensive therapy unless contraindicated. Educate on red-flag symptoms requiring emergency care: rest pain, diaphoresis, radiating pain, syncope."
+  },
+  {
+    "id": "G-03",
+    "tags": ["sore throat", "pediatric", "fever", "throat"],
+    "title": "Pediatric Sore Throat Management",
+    "text": "In children with sore throat and low-grade fever under 3 days, assess for Centor-type criteria (tonsillar exudate, tender nodes, absence of cough, fever). If antibiotics are indicated and the child has a documented amoxicillin/penicillin allergy, use a non-beta-lactam alternative and confirm the allergy history with a caregiver before prescribing. Advise return if difficulty breathing, drooling, or inability to swallow fluids develops."
+  },
+  {
+    "id": "G-04",
+    "tags": ["ckd", "diabetes", "edema", "renal", "kidney"],
+    "title": "CKD Stage 3 Routine Follow-up",
+    "text": "For CKD Stage 3 patients on ACE inhibitor/ARB therapy presenting with new mild peripheral edema, check renal function (creatinine, eGFR) and electrolytes, review sodium intake, and monitor blood pressure. Avoid nephrotoxic NSAIDs and sulfonamide-containing drugs where there is a documented sulfa allergy. Escalate to nephrology if eGFR has dropped more than 25% from baseline or edema worsens."
+  },
+  {
+    "id": "G-05",
+    "tags": ["diabetes", "metformin", "glycemic"],
+    "title": "Type 2 Diabetes — Routine Monitoring",
+    "text": "Patients on stable metformin therapy should have HbA1c reviewed every 3 months and be screened for gastrointestinal side effects. Metformin should be used cautiously if renal function is impaired (eGFR<30 is a contraindication). Reinforce dietary carbohydrate counting and physical activity at every follow-up."
+  },
+  {
+    "id": "G-06",
+    "tags": ["allergy", "safety", "escalation"],
+    "title": "Allergy Conflict Escalation Rule",
+    "text": "Any proposed medication that matches a patient's documented allergy list must never be finalized automatically. The follow-up plan must be routed to a human clinician for review with the conflict explicitly flagged, and an alternative class of medication should be suggested where clinically reasonable."
+  }
+]

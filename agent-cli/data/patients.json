@@ -1,0 +1,46 @@
+[
+  {
+    "id": "P-1001",
+    "name": "Ritika Sharma",
+    "age": 34,
+    "sex": "F",
+    "allergies": ["Penicillin"],
+    "chronicConditions": ["Type 2 Diabetes"],
+    "currentMedications": ["Metformin 500mg BD"],
+    "lastVisit": "2026-08-02",
+    "reasonForVisit": "Follow-up for productive cough and mild fever, 4 days duration."
+  },
+  {
+    "id": "P-1002",
+    "name": "Arjun Verma",
+    "age": 58,
+    "sex": "M",
+    "allergies": [],
+    "chronicConditions": ["Hypertension", "Coronary artery disease"],
+    "currentMedications": ["Amlodipine 5mg OD", "Aspirin 75mg OD"],
+    "lastVisit": "2026-07-20",
+    "reasonForVisit": "Chest tightness on exertion, referred for post-discharge cardiac follow-up."
+  },
+  {
+    "id": "P-1003",
+    "name": "Fatima Khan",
+    "age": 9,
+    "sex": "F",
+    "allergies": ["Amoxicillin"],
+    "chronicConditions": [],
+    "currentMedications": [],
+    "lastVisit": "2026-08-28",
+    "reasonForVisit": "Sore throat, difficulty swallowing, low-grade fever for 2 days."
+  },
+  {
+    "id": "P-1004",
+    "name": "Devendra Rao",
+    "age": 66,
+    "sex": "M",
+    "allergies": ["Sulfa drugs"],
+    "chronicConditions": ["Chronic Kidney Disease Stage 3", "Type 2 Diabetes"],
+    "currentMedications": ["Insulin Glargine OD", "Losartan 50mg OD"],
+    "lastVisit": "2026-09-01",
+    "reasonForVisit": "Routine CKD follow-up, mild ankle swelling reported."
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "omniops-health-backend",
   "version": "1.0.0",
-  "description": "OmniOps Health — prescription analysis API (Tech Zephyr 4.0)",
+  "description": "OmniOps Health \u2014 Autonomous Clinical Documentation & Follow-up Agent (Tech Zephyr 4.0, Team Mavericks)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
